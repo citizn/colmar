@@ -5,6 +5,40 @@ div {
   border: 1px solid black;
 }
 
-/*.banner.container {
+
+/* Universal Styles */
+
+.media-container {
+  width: 60%;
+  height: auto;
+}
+
+.media-container img {
+  width: 100%;
+  height: auto;
+}
+
+/* Header Section */
+
+header {
   display: flex;
-}*/
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.span-border {
+  border-right: 16px solid green;
+}
+
+/* First Section (BANNER) */
+
+.banner.container {
+  display: flex;
+  width: 100%;
+}
