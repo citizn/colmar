@@ -42,3 +42,30 @@ header {
   display: flex;
   width: 100%;
 }
+
+
+/* Second Section (MAIN)*/
+
+.main.container {
+  display: flex;
+}
+
+/* Third Section (COURSES) */
+
+.courses-presentation-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Fourth Section (THESIS) */
+
+.thesis-column-container {
+  display: flex;
+}
+
+/* Footer Section */
+
+footer {
+  display: flex;
+  justify-content: space-between;
+}
