@@ -81,7 +81,7 @@ nav a {
   display: flex;
   position: relative;
   top: 4rem;
-  background-color: lightgray;
+  background-color: lightgrey;
   width: 100%;
   height: 30rem;
 }
@@ -93,8 +93,8 @@ nav a {
 }
 
 .banner.media-container img {
-  width: auto;
-  height: 26rem;
+  width: 100%;
+  height: auto;
 }
 
 .banner-text-container {
@@ -105,15 +105,10 @@ nav a {
   width: 20rem;
 }
 
-/*h1 {
-  font-weight: bold;
-  font-size: 1.5rem;
-}*/
-
 .start-button {
   height: 3rem;
   width: 16rem;
-  background-color: gray;
+  background-color: grey;
 }
 
 .start-button a {
@@ -126,9 +121,87 @@ nav a {
 
 .main.container {
   display: flex;
+  position: relative;
+  top: 4rem;
+  width: 100%;
+  height: 30rem;
+  background-color: white;
+  margin: 2rem 0;
+}
+
+.main.first-column {
+  margin: 0 1.5rem;
+  width: 60%;
+  height: auto;
+}
+
+.main.media-container {
+  width: 36rem;
+  height: auto;
+}
+
+.main.media-container img {
+  width: 100%;
+  height: auto;
+}
+
+.main.second-column {
+  width: 40%;
+  height: 30rem;
+  display: flex;
+  flex-direction: column;
+  border-left: 0.5px solid lightgrey;
+}
+
+.main-small-container {
+  height: 10rem;
+  display: flex;
+}
+
+.main.sml-img-container img {
+  width: 8rem;
+  height: auto;
+}
+
+.orientation {
+  padding-left: 1rem;
+  padding-bottom: 1rem;
+  padding-right: 1rem;
+}
+
+.campus {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.lecture {
+  padding-top: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.guest {
+  background-color: lightgrey;
+}
+
+p {
+  font-size: 0.9rem;
+}
+
+.reference {
+  font-size: 0.75rem;
+}
+
+.main.text a {
+  text-decoration: none;
 }
 
 /* Third Section (COURSES) */
+
+.courses.container {
+  position: relative;
+  top: 4rem;
+}
 
 .courses-presentation-container {
   display: flex;
