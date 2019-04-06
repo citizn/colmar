@@ -201,11 +201,38 @@ p {
 .courses.container {
   position: relative;
   top: 4rem;
+  background-color: lightgrey;
+  width: 100%;
+  height: 45rem;
+}
+
+.courses.container h1 {
+  text-align: center;
+  margin-top: 2rem;
+  padding-top: 2rem;
 }
 
 .courses-presentation-container {
   display: flex;
+  /*justify-content: space-around;*/
   flex-wrap: wrap;
+  width: auto;
+  height: auto;
+  margin: 0 3.5rem;
+}
+
+.course {
+  width: 15rem;
+  margin: 1rem;
+  background-color: white;
+}
+
+.course-img-container {
+  width: 15rem;
+}
+
+.course-img-container img {
+  width: 15rem;
 }
 
 /* Fourth Section (THESIS) */
