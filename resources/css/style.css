@@ -1,11 +1,6 @@
 @charset "UTF-8";
 /* CSS Document */
 
-/*div {
-  border: 1px solid black;
-}*/
-
-
 /* Universal Styles */
 
 html {
@@ -267,6 +262,7 @@ nav a {
 
 .thesis-column-container {
   display: flex;
+  margin-bottom: 2rem;
 }
 
 .thesis.media-container {
@@ -287,7 +283,6 @@ nav a {
 
 .thesis.media-container p {
   margin-top: 0.5rem;
-  margin-bottom: 2rem;
 }
 
 .thesis.first-column {
@@ -306,10 +301,22 @@ nav a {
   height: 10rem;
 }
 
+.prototype {
+  background: lightgrey;
+}
+
 .thesis.sml-img-container img {
   width: 8rem;
   height: auto;
   padding: 1rem;
+}
+
+.info.text {
+  padding-top: 1rem;
+}
+
+.info.text h4 {
+  margin-bottom: 0.5rem;
 }
 
 /* Footer Section */
@@ -321,4 +328,19 @@ footer {
   top: 4rem;
   height: 4rem;
   width: 100%;
+  font-size: 0.75rem;
+  padding-top: 1rem;
+}
+
+.copyright {
+  margin-left: 1.5rem;
+}
+
+.terms a{
+  text-decoration: none;
+  color: black;
+}
+
+.terms span {
+  padding: 0.5rem;
 }
