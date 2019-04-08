@@ -4,7 +4,7 @@
 /* Universal Styles */
 
 html {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: "Quicksand", Helvetica, sans-serif;
   font-size: 16px;
 }
 
@@ -17,14 +17,17 @@ p {
   font-size: 0.9rem;
 }
 
-.media-container {
-  width: 60%;
-  height: auto;
+h1,
+h3,
+h4 {
+  font-family: "Muli", Helvetica, sans-serif;
 }
 
-.media-container img {
-  width: 100%;
-  height: auto;
+@media only screen and (max-width: 480px) {
+  body {
+    width: 29rem;
+    margin: 0 auto;
+  }
 }
 
 /* Header Section */
@@ -69,9 +72,42 @@ nav a {
   color: black;
 }
 
+nav div {
+  font-size: 0.75rem;
+  font-weight: bold;
+  padding-top: 1.5rem;
+  transition-property: background-color;
+  transition-duration: 1s;
+}
+
+nav div:hover {
+  background-color: turquoise;
+}
+
 .border {
   width: 1rem;
   background-color: turquoise;
+}
+
+.mobile-nav {
+  display: none;
+}
+
+/* Header Section MOBILE */
+
+@media only screen and (max-width: 480px) {
+  .logo,
+  .desktop-nav {
+    display: none;
+  }
+
+  .mobile-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 480px;
+    height: 4rem;
+  }
 }
 
 /* First Section (BANNER) */
@@ -80,7 +116,7 @@ nav a {
   display: flex;
   position: relative;
   top: 4rem;
-  background-color: lightgrey;
+  background-color: #c2c2a3;
   width: 100%;
   height: 30rem;
 }
@@ -88,7 +124,7 @@ nav a {
 .banner.media-container {
   margin: 2rem 1.5rem;
   width: 60%;
-  height: 26rem;
+  height: 26rem;*/
 }
 
 .banner.media-container img {
@@ -107,7 +143,13 @@ nav a {
 .start-button {
   height: 3rem;
   width: 16rem;
-  background-color: grey;
+  background-color: #404040;
+  transition-property: background-color;
+  transition-duration: 1s;
+}
+
+.start-button:hover {
+  background-color: turquoise;
 }
 
 .start-button a {
@@ -116,7 +158,48 @@ nav a {
   padding: 1rem auto;
 }
 
-/* Second Section (MAIN)*/
+.mobile-banner-container {
+  display: none;
+}
+
+/* First Section (BANNER) MOBILE */
+
+@media only screen and (max-width: 480px) {
+  .banner.container {
+    display: none;
+  }
+
+  .mobile-banner-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 42rem;
+    background-color: #c3c3a2;
+  }
+
+  .mobile-banner-container .banner.media-container {
+    width: 100%;
+    height: auto;
+    margin-bottom: 0;
+  }
+
+  .mobile-banner-container h1,
+  .mobile-banner-container h3 {
+    padding-left: 1rem;
+  }
+
+  .start-button {
+    width: 25rem;
+  }
+
+  div {
+    border: 1px solid black;
+  }
+}
+
+/* Second Section (MAIN) */
 
 .main.container {
   display: flex;
@@ -189,23 +272,27 @@ nav a {
 }
 
 .guest {
-  background-color: lightgrey;
+  background-color: #c2c2a3;
 }
 
 .reference {
   font-size: 0.75rem;
 }
 
-.main.text a {
+.read-more a {
   text-decoration: none;
 }
+
+/* Second Section (MAIN) MOBILE */
+
+
 
 /* Third Section (COURSES) */
 
 .courses.container {
   position: relative;
   top: 4rem;
-  background-color: lightgrey;
+  background-color: #c2c2a3;
   width: 100%;
   height: 45rem;
 }
@@ -247,6 +334,10 @@ nav a {
 .course-img-container img {
   width: 15rem;
 }
+
+/* Third Section (COURSES) MOBILE */
+
+
 
 /* Fourth Section (THESIS) */
 
@@ -302,7 +393,7 @@ nav a {
 }
 
 .prototype {
-  background: lightgrey;
+  background: #c2c2a3;
 }
 
 .thesis.sml-img-container img {
@@ -318,6 +409,10 @@ nav a {
 .info.text h4 {
   margin-bottom: 0.5rem;
 }
+
+/* Fourth Section (THESIS) MOBILE */
+
+
 
 /* Footer Section */
 
@@ -344,3 +439,5 @@ footer {
 .terms span {
   padding: 0.5rem;
 }
+
+/* Footer Section MOBILE */
