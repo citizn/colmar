@@ -13,6 +13,15 @@ html {
   font-size: 16px;
 }
 
+body {
+  width: 60rem;
+  margin: 0 auto;
+}
+
+p {
+  font-size: 0.9rem;
+}
+
 .media-container {
   width: 60%;
   height: auto;
@@ -21,11 +30,6 @@ html {
 .media-container img {
   width: 100%;
   height: auto;
-}
-
-body {
-  width: 60rem;
-  margin: 0 auto;
 }
 
 /* Header Section */
@@ -153,6 +157,15 @@ nav a {
   border-left: 0.5px solid lightgrey;
 }
 
+.main.second-column p {
+  margin-top: 0.5rem;
+  margin-bottom: 0;
+}
+
+.main.second-column h4 {
+  margin-bottom: 0;
+}
+
 .main-small-container {
   height: 10rem;
   display: flex;
@@ -184,10 +197,6 @@ nav a {
   background-color: lightgrey;
 }
 
-p {
-  font-size: 0.9rem;
-}
-
 .reference {
   font-size: 0.75rem;
 }
@@ -214,17 +223,26 @@ p {
 
 .courses-presentation-container {
   display: flex;
-  /*justify-content: space-around;*/
   flex-wrap: wrap;
   width: auto;
   height: auto;
   margin: 0 3.5rem;
+  justify-content: center;
 }
 
 .course {
   width: 15rem;
   margin: 1rem;
   background-color: white;
+}
+
+.course p,
+.course h4 {
+  padding-left: 1rem;
+}
+
+.course h4 {
+  margin-top: 1rem;
 }
 
 .course-img-container {
@@ -237,8 +255,61 @@ p {
 
 /* Fourth Section (THESIS) */
 
+.thesis.container {
+  position: relative;
+  top: 4rem;
+}
+
+.thesis.container h1 {
+  padding-top: 2rem;
+  text-align: center;
+}
+
 .thesis-column-container {
   display: flex;
+}
+
+.thesis.media-container {
+  width: 36rem;
+  height: auto;
+  margin-bottom: 0;
+}
+
+.thesis.media-container video {
+  width: 100%;
+  height: auto;
+}
+
+.thesis.media-container h4 {
+  margin-top: 1.5rem;
+  margin-bottom: 0;
+}
+
+.thesis.media-container p {
+  margin-top: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+.thesis.first-column {
+  margin: 0 1.5rem;
+  width: 60%;
+}
+
+.thesis.second-column {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+
+.exhibit {
+  display: flex;
+  height: 10rem;
+}
+
+.thesis.sml-img-container img {
+  width: 8rem;
+  height: auto;
+  padding: 1rem;
 }
 
 /* Footer Section */
@@ -246,4 +317,8 @@ p {
 footer {
   display: flex;
   justify-content: space-between;
+  position: relative;
+  top: 4rem;
+  height: 4rem;
+  width: 100%;
 }
