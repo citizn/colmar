@@ -107,9 +107,9 @@ nav div:hover {
 
   .mobile-nav {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    max-width: 480px;
+    width: 30rem;
     height: 4rem;
   }
 }
@@ -189,10 +189,9 @@ nav div:hover {
   .mobile-banner-container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     width: 100%;
-    height: 42rem;
+    height: 43rem;
     background-color: #c3c3a2;
   }
 
@@ -202,17 +201,22 @@ nav div:hover {
     margin-bottom: 0;
   }
 
-  .mobile-banner-container h1,
+  .mobile-banner-container h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    padding: 2rem 1rem;
+    text-align: left;
+  }
+
   .mobile-banner-container h3 {
-    padding-left: 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 0 1rem 1.5rem 1rem;
+    text-align: left;
   }
 
   .start-button {
     width: 25rem;
-  }
-
-  div {
-    border: 1px solid black;
   }
 }
 
@@ -324,8 +328,53 @@ nav div:hover {
   text-decoration: none;
 }
 
+.mobile-main-container {
+  display: none;
+}
+
 /* Second Section (MAIN) MOBILE */
 
+@media only screen and (max-width: 480px) {
+  .main.container {
+    display: none;
+  }
+
+  .mobile-main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 1rem;
+    width: 30rem;
+    height: 62rem;
+  }
+
+  .main.text h4{
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-bottom: 1rem;
+  }
+
+  .main.text p{
+    font-size: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  .main.sml-img-container {
+    width: 100%;
+    height: auto;
+  }
+
+  .main.sml-img-container img {
+    width: 90%;
+    height: auto;
+  }
+
+  .main.text {
+    padding: 1rem 2rem;
+  }
+
+
+}
 
 
 /* Third Section (COURSES) */
