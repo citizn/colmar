@@ -345,7 +345,7 @@ nav div:hover {
     align-items: flex-start;
     margin-top: 1rem;
     width: 30rem;
-    height: 62rem;
+    height: 64rem;
   }
 
   .main.text h4{
@@ -372,10 +372,7 @@ nav div:hover {
   .main.text {
     padding: 1rem 2rem;
   }
-
-
 }
-
 
 /* Third Section (COURSES) */
 
@@ -439,9 +436,41 @@ nav div:hover {
   width: 15rem;
 }
 
+.mobile-courses-presentation {
+  display: none;
+}
+
 /* Third Section (COURSES) MOBILE */
 
+@media only screen and (max-width: 480px) {
+  .courses-presentation-container {
+    display: none;
+  }
 
+  .courses.container {
+    background-color: #fefbfa;
+    height: 34rem;
+    border-top: 0.5px solid #c2c2a3;
+    border-bottom: 0.5px solid #c2c2a3;
+  }
+
+  .mobile-courses-presentation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .mobile-courses-presentation div {
+    width: 80%;
+    height: 2.5rem;
+    background-color: #c2c2a3;
+    margin-bottom: 0.5rem;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+}
 
 /* Fourth Section (THESIS) */
 
