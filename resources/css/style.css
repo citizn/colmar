@@ -120,7 +120,7 @@ nav div:hover {
   display: flex;
   position: relative;
   top: 4rem;
-  background-color: #c2c2a3;
+  background-color: #e0e0e0;
   width: 100%;
   height: 30rem;
 }
@@ -188,7 +188,7 @@ nav div:hover {
     align-items: center;
     width: 100%;
     height: 43rem;
-    background-color: #c3c3a2;
+    background-color: #e0e0e0;
   }
 
   .mobile-banner-container .banner.media-container {
@@ -266,7 +266,7 @@ nav div:hover {
   height: 30rem;
   display: flex;
   flex-direction: column;
-  border-left: 0.5px solid #c2c2a3;
+  border-left: 0.5px solid #e0e0e0;
 }
 
 .main.second-column p {
@@ -317,7 +317,7 @@ nav div:hover {
 }
 
 .guest {
-  background-color: #c2c2a3;
+  background-color: #e0e0e0;
 }
 
 .read-more a {
@@ -375,7 +375,7 @@ nav div:hover {
 .courses.container {
   position: relative;
   top: 4rem;
-  background-color: #c2c2a3;
+  background-color: #e0e0e0;
   width: 100%;
   height: 42rem;
 }
@@ -446,8 +446,8 @@ nav div:hover {
   .courses.container {
     background-color: #fefbfa;
     height: 34rem;
-    border-top: 0.5px solid #c2c2a3;
-    border-bottom: 0.5px solid #c2c2a3;
+    border-top: 0.5px solid #e0e0e0;
+    border-bottom: 0.5px solid #e0e0e0;
   }
 
   .mobile-courses-presentation {
@@ -459,7 +459,7 @@ nav div:hover {
   .mobile-courses-presentation div {
     width: 80%;
     height: 2.5rem;
-    background-color: #c2c2a3;
+    background-color: #e0e0e0;
     margin-bottom: 0.5rem;
     padding-top: 1rem;
     padding-left: 1rem;
@@ -525,7 +525,7 @@ nav div:hover {
 }
 
 .prototype {
-  background: #c2c2a3;
+  background: #e0e0e0;
 }
 
 .thesis.sml-img-container img {
@@ -595,7 +595,7 @@ footer {
   width: 100%;
   font-size: 0.75rem;
   padding-top: 1rem;
-  border-top: 0.5px solid #c2c2a3;
+  border-top: 0.5px solid #e0e0e0;
 }
 
 .copyright {
